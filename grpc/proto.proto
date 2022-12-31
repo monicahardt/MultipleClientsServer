@@ -12,6 +12,8 @@ message JoinRequest {
     int64 lamportClock = 2;
 }
 
+message JoinResponse {}
+
 message Message {
     string user = 1;
     string message = 2;
